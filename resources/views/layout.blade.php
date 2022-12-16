@@ -14,10 +14,6 @@
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/chat.css') }}">
         <!-- <script src="https://js.pusher.com/7.0/pusher.min.js"></script> -->
-
-        <!-- Scripts -->
-        @routes
-        <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body class="font-sans antialiased">
         @inertia
